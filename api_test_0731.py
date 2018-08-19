@@ -106,7 +106,7 @@ def submit_image(image, question_id):
 
     endpoint = 'http://pixnethackathon2018-competition.events.pixnet.net/api/answer'
 
-    key = os.environ.get('qcnWTZcgTxArSAfp')
+    key = os.environ.get(PIXNET_FOODAI_KEY)
 
     # Assign image format
     image_format = 'jpeg'
